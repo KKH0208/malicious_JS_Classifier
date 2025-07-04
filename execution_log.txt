@@ -1,0 +1,1603 @@
+[INFO] --- 로그 파일 초기화 성공 ---
+[INFO] 모든 실행 로그가 'c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\execution_log.txt'에 기록됩니다.
+[INFO] INFO: 입력 폴더 (Input Folder): c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js
+[INFO] INFO: 출력 폴더 (Output Folder): c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\output_asts
+[INFO] INFO: JavaScript 파서 컨텍스트 초기화 중...
+[INFO] INFO: JavaScript 파서 컨텍스트 초기화 완료.
+[INFO] 'c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js'에서 JavaScript 파일을 스캔하고 AST로 변환을 시작합니다...
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_1.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_1.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_10.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_10.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_11.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_11.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_12.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_12.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_13.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_13.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_2.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_2.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_3.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_3.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_4.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_4.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_5.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_5.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_6.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_6.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_7.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_7.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_8.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_8.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_9.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\apple_com\script_9.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\dzen_ru\script_1.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\dzen_ru\script_1.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_1.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_1.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_10.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_10.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_11.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_11.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_12.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_12.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_13.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_13.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_14.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_14.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_15.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_15.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_16.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_16.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_17.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_17.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_18.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_18.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_19.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_19.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_2.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_2.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_20.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_20.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_21.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_21.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_22.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_22.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_23.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_23.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_24.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_24.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_25.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_25.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_26.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_26.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_27.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_27.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_28.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_28.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_29.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_29.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_3.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_3.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_30.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_30.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_31.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_31.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_32.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_32.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_33.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_33.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_34.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_34.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_35.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_35.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_36.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_36.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_37.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_37.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_38.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_38.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_39.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_39.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_4.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_4.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_40.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_40.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_41.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_41.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_42.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_42.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_43.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_43.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_44.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_44.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_45.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_45.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_46.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_46.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_47.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_47.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_48.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_48.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_49.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_49.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_5.js
+[ERROR]   [Python 오류] PyExecJS 호출 또는 JSON 처리 중 예상치 못한 오류 발생: 'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\test.py", line 112, in parse_js_code_to_ast
+    json_ast_string = ctx.call("parse_js_to_ast", js_code_string)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+           ^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\execjs\_external_runtime.py", line 156, in _extract_result
+    output = output.replace("\r\n", "\n").replace("\r", "\n")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+[WARNING]   WARNING: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_5.js 파일의 AST를 생성하지 못했습니다. (위 JS 파싱 오류 메시지 참고)
+[INFO] ------------------------------------------------------------
+[INFO] 처리 중: c:\Users\KIM KIHYUN\Desktop\vscode\졸업논문\benign_js\microsoft_com\script_50.js
+[INFO] --- 로그 파일 닫기 ---
