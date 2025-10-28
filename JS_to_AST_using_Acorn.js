@@ -26,7 +26,7 @@ async function processJsFiles() {
     let skippedJsonLdCount = 0;
 
     // JSON-LD 특성 키워드 목록
-    const mustHaveKeywords = ['@context', '@type', '@id'];
+    const mustHaveKeywords = ['@context', '@type'];
 
     for (const filePath of filesToProcess) {
         const relativePath = path.relative(INPUT_DIR, filePath);
@@ -42,7 +42,8 @@ async function processJsFiles() {
             // 키워드 모두 포함 여부 체크 (대소문자 구분, 문자열 포함 검사)
             const hasAllKeywords = mustHaveKeywords.every(keyword => jsCode.includes(`"${keyword}"`));
 
-            if (hasAllKeywords) {
+            // 500줄 이하면서 키워드 둘 다 있으면 JSON-LD로 판단
+            if (hasAllKeywords && jsCode.split('\n').length <= 500) {
                 console.log(`  스킵됨: JSON-LD 파일로 판단됨 -> ${filePath}`);
                 skippedJsonLdCount++;
                 continue;
@@ -62,8 +63,8 @@ async function processJsFiles() {
                 continue;
             }
 
-            // JSON으로 저장
-            const jsonAst = JSON.stringify(ast, null, 2);
+            // JSON으로 저장 (들여쓰기 2칸 유지)
+            const jsonAst = JSON.stringify(ast, null, 1);
             fs.mkdirSync(outputDirPath, { recursive: true });
             fs.writeFileSync(outputPath, jsonAst, 'utf8');
             console.log(`  성공: AST 저장 완료 -> ${outputPath}`);
@@ -96,3 +97,5 @@ async function getJsFilesRecursive(dir) {
 
 // --- 실행 시작 ---
 processJsFiles();
+
+
