@@ -1,0 +1,13 @@
+viewer.add("http://alborz-highschool.com/images/alborz/mosafarat/mosaferat00.jpg","اردو شیراز");
+viewer.add("http://alborz-highschool.com/images/alborz/mosafarat/mosaferat01.jpg","اردو شیراز");
+viewer.add("http://alborz-highschool.com/images/alborz/mosafarat/mosaferat02.jpg","اردو شیراز");
+viewer.add("http://alborz-highschool.com/images/alborz/mosafarat/mosaferat03.jpg","اردو شیراز");
+viewer.add("http://alborz-highschool.com/images/alborz/mosafarat/mosaferat05.jpg","اردو شیراز");
+viewer.add("http://alborz-highschool.com/images/alborz/mosafarat/mosaferat06.jpg","اردو شیراز");
+viewer.add("http://alborz-highschool.com/images/alborz/mosafarat/mosaferat07.jpg","اردو شیراز");
+viewer.add("alborz-highschool.com/images/alborz/mosafarat/mosaferat08.jpg","اردو شیراز");
+viewer.add("http://alborz-highschool.com/images/alborz/mosafarat/mosaferat09.jpg","اردو شیراز");
+viewer.add("http://alborz-highschool.com/images/alborz/mosafarat/mosaferat10.jpg","اردو شیراز");
+viewer.add("http://alborz-highschool.com/images/alborz/mosafarat/mosaferat11.jpg","اردو شیراز");
+viewer.add("http://alborz-highschool.com/images/alborz/mosafarat/mosaferat12.jpg","اردو شیراز");
+viewer.add("http://alborz-highschool.com/images/alborz/mosafarat/mosaferat13.jpg","اردو شیراز");

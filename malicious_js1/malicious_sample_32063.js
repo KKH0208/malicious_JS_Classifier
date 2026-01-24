@@ -1,0 +1,4 @@
+TemplateJS.theme_navigationbar.main({
+	bid: '4275338', articleID: '242442198', reportType: 'article',
+	tpl_type: 1, viewModes: [{"name":"\u6458\u8981\u6a21\u5f0f","URL":"https:\/\/blog.xuite.net\/ukp9izm3\/blog\/[mode]-view\/242442198","selected":true,"value":"expert"},{"name":"\u5217\u8868\u6a21\u5f0f","URL":"https:\/\/blog.xuite.net\/ukp9izm3\/blog\/[mode]-view\/242442198","selected":false,"value":"list"},{"name":"\u62cd\u7acb\u5f97\u6a21\u5f0f","URL":"https:\/\/blog.xuite.net\/ukp9izm3\/blog\/[mode]-view\/242442198","selected":false,"value":"snapshot"},{"name":"\u78da\u7246\u6a21\u5f0f","URL":"https:\/\/blog.xuite.net\/ukp9izm3\/blog\/[mode]-view\/242442198","selected":false,"value":"brick"},{"name":"\u99ac\u8cfd\u514b\u6a21\u5f0f","URL":"https:\/\/blog.xuite.net\/ukp9izm3\/blog\/[mode]-view\/242442198","selected":false,"value":"mosaic"}] , pushLink: 'https://blog.xuite.net/ukp9izm3/blog/242442198'
+});

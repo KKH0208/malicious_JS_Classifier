@@ -3,8 +3,8 @@ const path = require('path');
 const acorn = require('acorn');
 
 // --- 설정 ---
-const INPUT_DIR = './benign_js';        // 입력 JS 파일 폴더
-const OUTPUT_DIR = './output_asts';     // AST 저장 폴더
+const INPUT_DIR = './malicious_js';        // 입력 JS 파일 폴더 ./benign_js ./malicious_js
+const OUTPUT_DIR = './astnn/astnn/data/malicious_ast_test';     // AST 저장 폴더 ./astnn/astnn/data/benign_ast_test ./astnn/astnn/data/malicious_ast_test
 
 // --- 메인 함수 ---
 async function processJsFiles() {

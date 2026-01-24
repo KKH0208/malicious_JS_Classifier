@@ -1,0 +1,4 @@
+highlightSearchTerms('unik',true,'http://sdftyujklvbn.blogspot.com/search/label/Unik%20Menarik%20Asyik?&max-results=10','summary677145642722132836');
+                                                                                                                                      highlightSearchTerms('menarik',true,'http://sdftyujklvbn.blogspot.com/search/label/Unik%20Menarik%20Asyik?&max-results=10','summary677145642722132836');
+                                                                                                                                      highlightSearchTerms('wow',true,'http://sdftyujklvbn.blogspot.com/search/label/WOW?&max-results=10','summary677145642722132836');
+                                                                                                                                      highlightSearchTerms('fun',true,'http://sdftyujklvbn.blogspot.com/search/label/Fun?&max-results=10','summary677145642722132836');

@@ -1,0 +1,11 @@
+var block_td_uid_6_617730481e4c8 = new tdBlock();
+block_td_uid_6_617730481e4c8.id = "td_uid_6_617730481e4c8";
+block_td_uid_6_617730481e4c8.atts = '{"limit":3,"sort":"featured","post_ids":"","tag_slug":"","autors_id":"","installed_post_types":"","category_id":"","category_ids":"","custom_title":"EDITOR PICKS","custom_url":"","show_child_cat":"","sub_cat_ajax":"","ajax_pagination":"","header_color":"","header_text_color":"","ajax_pagination_infinite_stop":"","td_column_number":1,"td_ajax_preloading":"","td_ajax_filter_type":"","td_ajax_filter_ids":"","td_filter_default_txt":"All","color_preset":"","border_top":"","class":"td_uid_6_617730481e4c8_rand","el_class":"","offset":"","css":"","live_filter":"","live_filter_cur_post_id":"","live_filter_cur_post_author":""}';
+block_td_uid_6_617730481e4c8.td_column_number = "1";
+block_td_uid_6_617730481e4c8.block_type = "td_block_7";
+block_td_uid_6_617730481e4c8.post_count = "0";
+block_td_uid_6_617730481e4c8.found_posts = "0";
+block_td_uid_6_617730481e4c8.header_color = "";
+block_td_uid_6_617730481e4c8.ajax_pagination_infinite_stop = "";
+block_td_uid_6_617730481e4c8.max_num_pages = "0";
+tdBlocksArray.push(block_td_uid_6_617730481e4c8);

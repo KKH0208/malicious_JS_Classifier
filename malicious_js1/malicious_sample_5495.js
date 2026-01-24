@@ -1,0 +1,11 @@
+var block_td_uid_3_6176ddca5e440 = new tdBlock();
+block_td_uid_3_6176ddca5e440.id = "td_uid_3_6176ddca5e440";
+block_td_uid_3_6176ddca5e440.atts = '{"limit":3,"sort":"","post_ids":"","tag_slug":"","autors_id":"","installed_post_types":"","category_id":"","category_ids":"","custom_title":"","custom_url":"","show_child_cat":"","sub_cat_ajax":"","ajax_pagination":"next_prev","header_color":"","header_text_color":"","ajax_pagination_infinite_stop":"","td_column_number":3,"td_ajax_preloading":"","td_ajax_filter_type":"td_custom_related","td_ajax_filter_ids":"","td_filter_default_txt":"All","color_preset":"","border_top":"","class":"td_uid_3_6176ddca5e440_rand","el_class":"","offset":"","css":"","tdc_css":"","tdc_css_class":"td_uid_3_6176ddca5e440_rand","tdc_css_class_style":"td_uid_3_6176ddca5e440_rand_style","live_filter":"cur_post_same_categories","live_filter_cur_post_id":1955,"live_filter_cur_post_author":"1","block_template_id":""}';
+block_td_uid_3_6176ddca5e440.td_column_number = "3";
+block_td_uid_3_6176ddca5e440.block_type = "td_block_related_posts";
+block_td_uid_3_6176ddca5e440.post_count = "3";
+block_td_uid_3_6176ddca5e440.found_posts = "100";
+block_td_uid_3_6176ddca5e440.header_color = "";
+block_td_uid_3_6176ddca5e440.ajax_pagination_infinite_stop = "";
+block_td_uid_3_6176ddca5e440.max_num_pages = "34";
+tdBlocksArray.push(block_td_uid_3_6176ddca5e440);

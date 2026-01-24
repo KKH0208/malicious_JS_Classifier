@@ -3,3 +3,4 @@ test.js
 benign_js/
 malicious_js/
 output_asts/
+astnn/astnn/data

@@ -1,0 +1,4 @@
+//<![CDATA[	
+var szk = {gk:{'width' : '100%','height': '420','player': 'http://www.phim85.com/player2.swf','proxy' : 'http://www.phim85.com/plugins/proxy.swf','skin':'','autoplay' : 'true','logo' : '','position' : 'top-left','margin' : '20','site': 'Xem Phim Online Tại day'},sv:{'list_sv': 'youtube.com,anc.yl,phim23.g,=m18,=m23,goo.gl,anc.you,phim14.net,anc.ps,yourupload.com,onecloud.media,dailymotion.com,zing.vn,=m24,drive.google.com,vivo.phim28.net,clip.vn,kpt.nct,phimsoc.z','name_sv': 'Youtube,List_Y,VIP PRO 2,VIP 1,VIP 2,Google,Youtube 2,VN 1,Picasa 1,ENGSUB,Picasa 2,Daily,ZingHD,VIP Thuyết minh,VIP PRO,Youtube2,Clip,Nhanh VN,ZingHD 2','acolor': '#fff','bgcolor': '#80B500','svcolor': ''}};
+function setActive(){aObj=document.getElementById("list_tap").getElementsByTagName("a");for(i=0;i<aObj.length;i++)0<=document.location.href.indexOf(aObj[i].href)&&(aObj[i].className="tap_active")}window.onload=setActive;
+//]]>

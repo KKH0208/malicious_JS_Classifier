@@ -1,0 +1,31 @@
+jQuery(function(){
+        jQuery('#camera_wrap_169').camera({
+                height: '430',
+                minHeight: '',
+                pauseOnClick: false,
+                hover: 1,
+                fx: 'simpleFade',
+                loader: 'pie',
+                pagination: 0,
+                thumbnails: 0,
+                thumbheight: 75,
+                thumbwidth: 100,
+                time: 3500,
+                transPeriod: 1500,
+                alignment: 'center',
+                autoAdvance: 1,
+                mobileAutoAdvance: 1,
+                portrait: 0,
+                barDirection: 'leftToRight',
+                imagePath: '/modules/mod_slideshowck/images/',
+                lightbox: 'mediaboxck',
+                fullpage: 0,
+				mobileimageresolution: '0',
+                navigationHover: false,
+					mobileNavHover: false,
+					navigation: false,
+					playPause: false,
+                barPosition: 'bottom',
+				container: ''
+        });
+});

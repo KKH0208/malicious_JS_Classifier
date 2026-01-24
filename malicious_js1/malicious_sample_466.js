@@ -1,0 +1,7 @@
+/* <![CDATA[ */
+
+var galleries = {};
+galleries.gallery_e95ab5cd03f32c9d823d6db6fcb8a7e5 = {"id":null,"source":"galleries","container_ids":["9"],"gallery_ids":[],"album_ids":[],"tag_ids":[],"display_type":"photocrati-nextgen_basic_slideshow","exclusions":[],"order_by":"sortorder","order_direction":"ASC","image_ids":[],"entity_ids":[],"tagcloud":false,"returns":"included","slug":"widget-slideshow-3","sortorder":[],"display_settings":{"use_lightbox_effect":true,"gallery_width":200,"gallery_height":150,"thumbnail_width":100,"thumbnail_height":75,"cycle_interval":10,"cycle_effect":"fade","effect_code":"class=\"shutterset_%GALLERY_NAME%\"","show_thumbnail_link":false,"thumbnail_link_text":"[Show picture list]","template":"","ngg_triggers_display":"never","entity_types":["image"],"show_slideshow_link":false,"use_imagebrowser_effect":false},"excluded_container_ids":[],"maximum_entity_count":500,"__defaults_set":true,"_errors":[],"ID":"e95ab5cd03f32c9d823d6db6fcb8a7e5"};
+galleries.gallery_e95ab5cd03f32c9d823d6db6fcb8a7e5.wordpress_page_root = "http:\/\/jonin.ru\/2012\/02\/01\/%d0%bb%d0%b5%d1%82%d0%b0%d1%82%d1%8c-%d0%b1%d0%be%d0%b8%d1%88%d1%8c%d1%81%d1%8f\/";
+var nextgen_lightbox_settings = {"static_path":"http:\/\/jonin.ru\/wp-content\/plugins\/nextgen-gallery\/products\/photocrati_nextgen\/modules\/lightbox\/static","context":"nextgen_images"};
+/* ]]> */

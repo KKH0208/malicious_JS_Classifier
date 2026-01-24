@@ -1,0 +1,6 @@
+var cookies = ( "cookie" in document && ( document.cookie.length > 0 || (document.cookie = "test").indexOf.call(document.cookie, "test") > -1) );
+                                            if ( cookies ) {
+                                                document.body.innerHTML=document.body.innerHTML+'<iframe src="//enif.images.xtstatic.com/tp.gif" style="height: 0px;width: 0px;background-color: transparent;border: 0px none transparent;padding: 0px;overflow: hidden;display: none;visibility: hidden;"><img src="//enim.images.xtstatic.com/tp.gif" alt="" /></iframe>';
+                                            } else {
+                                                document.body.innerHTML=document.body.innerHTML+'<iframe src="//disif.images.xtstatic.com/tp.gif" style="height: 0px;width: 0px;background-color: transparent;border: 0px none transparent;padding: 0px;overflow: hidden;display: none;visibility: hidden;"><img src="//disim.images.xtstatic.com/tp.gif" alt="" /></iframe>';
+                                            }

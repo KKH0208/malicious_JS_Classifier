@@ -1,0 +1,4 @@
+//<![CDATA[
+//Recent Comments
+var numComments=numComments||5,characters=characters||40;function recent_comments(tb){var commentsHtml;commentsHtml='<ul id="recent_comments">';for(var i=0;i<numComments;i++){var commentlink,authorName;if(i==tb.feed.entry.length)break;commentsHtml+="<li>";var entry=tb.feed.entry[i];for(var l=0;l<entry.link.length;l++){if(entry.link[l].rel=='alternate'){commentlink=entry.link[l].href}}for(var a=0;a<entry.author.length;a++){authorName=entry.author[a].name.$t}commentsHtml+="<strong><a href=\""+commentlink+"\" title=\""+authorName+"\">"+authorName+"</a></strong>";var commHTML=entry.content.$t;var commBody=commHTML.replace(/(<([^>]+)>)/ig,"");if(commBody!=""&&commBody.length>characters){commBody=commBody.substring(0,characters);commBody+=" &hellip;"}else{commBody=commBody}commentsHtml+=" - ";commentsHtml+="<span>"+commBody+"</span>";commentsHtml+="</li>"}commentsHtml+='</ul>';document.write(commentsHtml)}
+//]]>

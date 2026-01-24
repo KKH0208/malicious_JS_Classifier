@@ -1,0 +1,20 @@
+var nodeScheme = "http";
+            var nodeHost   = "de.a2ip.ru";
+            var nodePort   = "";
+            var indexTitle = "2ip.ru Anonymizer service";
+            var prxOriginalUrl = "http://pay.facebook.com/ajax/bz?__a=1&__ccg=UNKNOWN&__comet_req=0&__csr=&__dyn=7xe6Fo4OQ1PyUbFuC1swgE98nwgU6C7UW3q327E2vwXx60kO4o3Bw5VCwjE3awbG782Cw8G0umUS1vw5zwww6DwdK1IwLwdq0Ho2ewnE0Caaw4kw&__hs=18939.BP%3ADEFAULT.2.0.0.0.&__hsi=7028021430401827428-0&__req=1&__rev=1004687931&__s=%3A%3Ajcnoel&__spin_b=trunk&__spin_r=1004687931&__spin_t=1636338753&__user=0&dpr=1&jazoest=21002&lsd=AVqjAkrSr2c";
+            var logoTitle = [];
+            logoTitle['en'] = 'My IP';
+            logoTitle['ru'] = '>9 IP';
+            var submitTitle = [];
+            submitTitle['en'] = 'Go';
+            submitTitle['ru'] = '?5@Q4';
+            var navTitleAnm = [];
+            navTitleAnm['en'] = 'Change Server';
+            navTitleAnm['ru'] = '!<5=8BL A5@25@';
+            var navTitlePrv = [];
+            navTitlePrv['en'] = 'Privacy check';
+            navTitlePrv['ru'] = '@>25@8BL 0=>=8<=>ABL';
+            var navTitleTst = [];
+            navTitleTst['en'] = 'All tests';
+            navTitleTst['ru'] = 'A5 B5ABK';

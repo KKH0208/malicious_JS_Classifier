@@ -1,0 +1,7 @@
+//<![CDATA[
+//Block Link Comments
+function blockLinks(e,t){var n=document.getElementById(e),r=n.getElementsByTagName(t);for(var i=0;i<r.length;i++){if(r[i].innerHTML.indexOf("</a>")!==-1){r[i].innerHTML="No more <span style='background-color:rgba(255,255,255,0.3);color:#fff;padding:4px 8px;border-radius:3px'><b>live link</b></span> in this comments field";r[i].className="spammer-detected"}}}blockLinks("comment_block","p");
+
+//Pre Comments Box
+function cdClear(){var e=document.getElementById("codes");e.value="";e.focus();document.getElementById("cvrt").disabled=false}function cdConvert(){var e=document.getElementById("codes"),t=e.value,n=document.getElementById("opt1"),r=document.getElementById("opt2"),i=document.getElementById("opt3"),s=document.getElementById("opt4"),o=document.getElementById("opt5");t=t.replace(/\t/g,"    ");if(n.checked)t=t.replace(/&/g,"&");if(r.checked)t=t.replace(/'/g,"&#039;");if(i.checked)t=t.replace(/"/g,"&quot;");if(s.checked)t=t.replace(/</g,"&lt;");if(o.checked)t=t.replace(/>/g,"&gt;");if(t.lastIndexOf("\n")!=-1||t.length>40){t=t.replace(/^/,'<i rel="pre">')}else{t=t.replace(/^/,'<i rel="code">')}t=t.replace(/$/,"</i>");e.value=t;e.focus();e.select()};
+//]]>
