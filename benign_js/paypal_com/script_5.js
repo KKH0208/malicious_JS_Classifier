@@ -1,0 +1,3 @@
+/* 元のURL: https://paypal.com */
+{"@context":"https://schema.org","@type":"WebPage","@id":"https://www.paypal.com/jp/home#webpage","name":"PayPalアカウント |モバイルウォレットなど","inLanguage":"jp","image":{"@type":"ImageObject","@id":"https://www.paypalobjects.com/marketing/web23/jp/quantum-leap/meta-images/homepage-uncookied-meta-size-all.jpg#primaryimage","url":"https://www.paypalobjects.com/marketing/web23/jp/quantum-leap/meta-images/homepage-uncookied-meta-size-all.jpg"},"isPartOf":{"@id":"https://www.paypal.com/jp/#website"},"primaryImageOfPage":{"@id":"https://www.paypalobjects.com/marketing/web23/jp/quantum-leap/meta-images/homepage-uncookied-meta-size-all.jpg#primaryimage"}}
+

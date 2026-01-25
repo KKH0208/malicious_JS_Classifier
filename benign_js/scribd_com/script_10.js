@@ -1,0 +1,3 @@
+/* 元のURL: https://scribd.com */
+{"@context":"http://schema.org","@type":"Organization","founder":[{"@type":"Person","name":"Trip Adler","jobTitle":"Co-Founder"},{"@type":"Person","name":"Jared Friedman","jobTitle":"Co-Founder"},{"@type":"Person","name":"Tikhon Bernstam","jobTitle":"Co-Founder"}],"foundingDate":"2007","logo":"https://s-f.scribdassets.com/images/logos/scribd_2025_wordmark_black.svg","name":"Scribd, Inc.","url":"https://www.scribd.com/","sameAs":["https://www.instagram.com/scribd/","https://twitter.com/Scribd","https://www.facebook.com/Scribd/","https://www.linkedin.com/company/Scribd","https://www.youtube.com/channel/UCtfKxwu_Vzz81-ZydwH-J5w"]}
+

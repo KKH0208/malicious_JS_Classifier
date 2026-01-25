@@ -1,0 +1,3 @@
+/* 元のURL: https://usatoday.com */
+<div class=gnt_m_nls_i__ss>Thank you for signing up for the Shopping deals and more newsletter</div><a class="gnt_m_nls_sb gnt_m_nls_sb__ss" href=https://profile.usatoday.com/newsletters/manage/ data-t-l=":newsletter (rail)|w|c|more">Sign up for more newsletters</a>|styles|.gnt_m_nls__ss::after,.gnt_m_nls__ss::before{display:none}.gnt_m_nls_i__ss{display:inline-block;max-width:440px;margin:0 0 20px;color:#fff;font:700 18px/20px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif}.gnt_m_nls_sb__ss{display:flex;justify-content:center;align-items:center;width:204px;background:#1665cf;font:700 12px/14px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;text-decoration:none}
+

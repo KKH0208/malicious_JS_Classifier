@@ -1,0 +1,3 @@
+/* 元のURL: https://yahoo.co.jp */
+bucket_id_for_ad = ''; bucket_ids = '';
+

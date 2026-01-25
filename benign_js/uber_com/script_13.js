@@ -1,0 +1,4 @@
+/* 元のURL: https://uber.com */
+(function (){function preloadInvokerInit(){"undefined"!=typeof window&&"function"==typeof window.fetch&&(window.__preload_cache_invoker__=function(n,o,e,w,i,d,t,c,r,a){window[e]=window[e]||{},window[e][w]=window[e][w]||{},window[e][w].start=window.performance?window.performance.now():null;const f={body:o,credentials:"include",headers:{"content-type":"application/json","x-csrf-token":"x"},method:"POST",mode:"cors"},p=function(){return fetch("/api/"+n,f).then((n=>n.json())).then((o=>{window[e][w].end=window.performance?window.performance.now():null,window[e][w].data=o,window?.__PUB_SUB__?.publish?.(n,o),setTimeout((()=>{delete window[e][w]}),t||864e5)})).catch((()=>{delete window[e][w]}))};window[e][w].promise=!c||r&&!window[i]||!window[d]?p():window[d].then((function(n){if(!a||!a(n))return p();delete window[e][w]}))})}
+preloadInvokerInit();})();
+

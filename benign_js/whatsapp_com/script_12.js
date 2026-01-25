@@ -1,0 +1,3 @@
+/* 元のURL: https://whatsapp.com */
+now_inl=(function(){var p=window.performance;return p&&p.now&&p.timing&&p.timing.navigationStart?function(){return p.now()+p.timing.navigationStart}:function(){return new Date().getTime()};})(); window.__bigPipeFR=now_inl();
+

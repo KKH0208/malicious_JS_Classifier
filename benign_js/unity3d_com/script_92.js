@@ -1,0 +1,3 @@
+/* 元のURL: https://unity3d.com */
+self.__next_f.push([1,"26:[\"$\",\"main\",null,{\"className\":\"relative flex-1\",\"children\":[\"$\",\"$L28\",null,{\"data-sentry-element\":\"NuqsAdapter\",\"data-sentry-source-file\":\"Layout.tsx\",\"children\":[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$29\",\"errorStyles\":[],\"errorScripts\":[],\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[\"$\",\"$L2a\",null,{\"data-sentry-element\":\"NotFoundComponent\",\"data-sentry-component\":\"NotFound\",\"data-sentry-source-file\":\"not-found.tsx\"}],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}]\n2c:T432,"])
+

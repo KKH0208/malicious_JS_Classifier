@@ -1,0 +1,5 @@
+/* 元のURL: https://booking.com */
+// 外部JS: https://cf.bstatic.com/psb/capla/static/js/5115337f.ed71eaa8.chunk.js
+"use strict";(self["b-index-lp-web-mfe__LOADABLE_LOADED_CHUNKS__"]=self["b-index-lp-web-mfe__LOADABLE_LOADED_CHUNKS__"]||[]).push([["5115337f"],{c1a20b07:(e,r,s)=>{s.d(r,{Z:()=>c});var t=s("ead71eb0"),n=s.n(t),d=s("d16e9636"),i=s.n(d);const l=(0,d.loadable)({resolved:{},chunkName(){return"bNativeDisplayAdsNdisplayAdComponent-GPTScriptLoader"},isReady(e){const r=this.resolve(e);return!0===this.resolved[r]&&!!s.m[r]},importAsync:()=>s.e("ad573c00").then(s.t.bind(s,"3cd578b5",23)),requireAsync(e){const r=this.resolve(e);return this.resolved[r]=!1,this.importAsync(e).then((e=>(this.resolved[r]=!0,e)))},requireSync(e){const r=this.resolve(e);return s(r)},resolve(){return"3cd578b5"}}),o=()=>n().createElement(l,null),c=o},b028406d:(e,r,s)=>{s.r(r),s.d(r,{default:()=>t.Z});var t=s("c1a20b07")}}]);
+//# sourceMappingURL=https://istatic.booking.com/internal-static/capla/static/js/5115337f.ed71eaa8.chunk.js.map
+

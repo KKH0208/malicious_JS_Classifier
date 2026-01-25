@@ -1,0 +1,4 @@
+/* 元のURL: https://bing.com */
+// 外部JS: https://bing.com/rp/tkYNdkMmX93Lq3AOkqQvUMBQo9Q.gz.js
+var DarkModeLogging;(function(){function f(){var t=s(),n=sj_cook.get("SRCHHPGUSR",r),u;i("OSTHEME"+t);u=o(n,t);i("BINGTHEME"+u);n&&i(r+n)}function o(t,i){return t===n.systemDefault?i:t!=""?t:u===n.systemDefault?i:u}function i(n){typeof Log!==t&&Log.LogFilterFlare&&Log.LogFilterFlare([n])}function s(){if(!_w.matchMedia)return"0";var n=_w.matchMedia("(prefers-color-scheme: dark)");return n.matches?"1":"0"}function h(){f();sj_be(_d,"visibilitychange",function(){_d.visibilityState==="visible"&&f()})}var n;(function(n){n.light="0";n.dark="1";n.systemDefault="2"})(n||(n={}));var t="undefined",e=typeof DarkSchemeCookies!==t,r="WEBTHEME",u=e&&typeof(DarkSchemeCookies===null||DarkSchemeCookies===void 0?void 0:DarkSchemeCookies.defaultThemeOption)!==t?DarkSchemeCookies.defaultThemeOption:n.light;typeof sj_cook!==t&&sj_cook&&h()})(DarkModeLogging||(DarkModeLogging={}))
+

@@ -1,0 +1,3 @@
+/* 元のURL: https://g.page */
+(function(){var isAnswerPage=true;var caseIdStr='Case ID';var inProgressStr='In Progress';var finishedStr='Finished';var viewMoreStr='View more';var showLessStr='Show less';var caseHistoryTitleStr='Recent cases';var lastUpdatedStr='Last updated';var enableCaseHistory=true;var caseHistoryStudyActive=false;var enableFeedbackButton=false;const caseHistoryTextSnippets = {'caseId':caseIdStr,'inProgress':inProgressStr,'finished':finishedStr,'viewMore':viewMoreStr,'showLess':showLessStr,'caseHistoryTitle':caseHistoryTitleStr,'lastUpdated':lastUpdatedStr,};window['sc_initCaseHistory']({isAnswerPage,caseHistoryTextSnippets,enableCaseHistory,caseHistoryStudyActive,enableFeedbackButton});})();
+

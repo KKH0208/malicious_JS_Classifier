@@ -1,0 +1,3 @@
+/* 元のURL: https://android.com */
+{"@context":"http://schema.org","@type":"WebPage","url":"https://www.android.com/","description":"Android ã«ã¤ãã¦ã®è©³ç´°ã¨ãé«ãæ¥ç¶æ§ã¨å¼·åãªä¿è­·æ©è½ãããã¦ Google ã¢ããªã¨ Quick Share ãä½¿ã£ã¦ Google ã§ããã«ä¾¿å©ã«ããããã®ããã¤ã¹ã®æ´»ç¨æ¹æ³ããç´¹ä»ãã¾ãã","publisher":{"@type":"Organization","name":"Android","logo":{"@type":"ImageObject","url":"https://www.gstatic.com/marketing-cms/assets/images/cb/7d/6ef7637c46a495e29aa48ad7a067/android-wordmark.svg"}},"name":"Android | Android ã¹ãã¼ããã©ã³ã Android ããã¤ã¹ãä½¿ã£ã¦ Google ã§ããã«ä¾¿å©ã«"}
+

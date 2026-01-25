@@ -1,0 +1,3 @@
+/* 元のURL: https://ok.ru */
+var pageCtx={0:0,regJsSrc:"res/js/scriptReg-n9opvjtd.js",giftsJsSrc:"res/js/scriptGifts-gwkm0mql.js",textareaJsSrc:"res/js/textarea-p4tcp8m8.js",photoUploaderJsSrc:"res/js/photoUploader-mq7uo8lb.js",abstractHooksSrc:"res/js/abstractHooks-gazvz1pb.js",bottomJsSrc:"res/js/scriptBottom-hewjb909.js",promoAppJsSrc:"res/js/scriptPromoApp-lqc30rr1.js",appEditJsSrc:"res/js/scriptAppEditForm-hplvycpm.js",cdnNodeSrc:"static/cdn/cdn.js?timestamp=1761686955869",gwtHash:"85952afcT1761556576970",isAnonym:true,path:"/",state:"st.cmd=anonymMain",staticResourceUrl:"//st-ok.cdn-vk.ru/",youlaApps:"youla,youla_test,sport2018,youla_stage,pandao,masters,get-ok-back-in-games"};
+

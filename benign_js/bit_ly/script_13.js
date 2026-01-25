@@ -1,0 +1,3 @@
+/* 元のURL: https://bit.ly */
+// 外部JS (読み込み失敗): data:application/javascript,%0A%28function%28w%2Cd%2Cs%2Cl%2Ci%29%7Bw%5Bl%5D%3Dw%5Bl%5D%7C%7C%5B%5D%3Bw%5Bl%5D.push%28%7B%27gtm.start%27%3Anew%20Date%28%29.getTime%28%29%2Cevent%3A%27gtm.js%27%7D%29%3Bvar%20f%3Dd.getElementsByTagName%28s%29%5B0%5D%2Cj%3Dd.createElement%28s%29%2Cdl%3Dl%21%3D%27dataLayer%27%3F%27%26l%3D%27%2Bl%3A%27%27%3Bj.async%3D%210%3Bj.src%3D%27https%3A%2F%2Fwww.googletagmanager.com%2Fgtm.js%3Fid%3D%27%2Bi%2Bdl%3Bf.parentNode.insertBefore%28j%2Cf%29%7D%29%28window%2Cdocument%2C%27script%27%2C%27dataLayer%27%2C%27GTM-MWZVBR2%27%29%0A
+

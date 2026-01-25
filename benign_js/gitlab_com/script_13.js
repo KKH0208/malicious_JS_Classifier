@@ -1,0 +1,3 @@
+/* 元のURL: https://gitlab.com */
+[{"state":1,"once":16,"_errors":17,"serverRendered":14,"path":20,"prerenderedAt":21},["Reactive",2],{"$snuxt-i18n-meta":3,"$snuxt-seo-utils:routeRules":4,"$ssite-config":5},{},{"head":-1,"seoMeta":-1},{"_priority":6,"currentLocale":11,"defaultLocale":11,"env":12,"name":13,"trailingSlash":14,"url":15},{"name":7,"env":8,"url":9,"trailingSlash":9,"defaultLocale":10,"currentLocale":10},-10,-15,-3,-2,"en-US","production","about.gitlab.com",true,"https://about.gitlab.com",["Set"],["ShallowReactive",18],{"/en-us/":19,"navigation-en-us":19,"banner-en-us":19,"footer-en-us":19,"footer-source-/en-us/":19,"vimeo-embed:1084345704":19,"next-steps-en-us":19},null,"/",1761680650968]
+

@@ -1,0 +1,3 @@
+/* 元のURL: https://nytimes.com */
+{"className":"css-r6z5ec","durationInSeconds":87,"aspectRatio":"2:3","src":[{"src":"https://vp.nyt.com/video/2025/10/28/152992_1_28vid-sudan_wg_1080p.mp4","type":"mp4","height":1080,"width":608},{"src":"https://vp.nyt.com/video/2025/10/28/152992_1_28vid-sudan_wg_720p.mp4","type":"mp4","height":720,"width":404}],"startTime":0,"play":true,"muted":true,"loop":false,"captions":"https://vp.nyt.com/video/2025/10/28/152992_1_28vid-sudan_wg_1080p.vtt","fit":"cover","visibleOnPageLoad":false,"trackingData":{"contentId":"100000010486454","mData":{"videoUri":"nyt://video/a573f877-9bb8-56ff-a950-961f4c5005a9","videoSection":"Home"}}}
+

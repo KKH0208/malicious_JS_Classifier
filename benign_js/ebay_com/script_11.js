@@ -1,0 +1,5 @@
+/* 元のURL: https://ebay.com */
+
+(function(){const e=window.GH||{};try{const o=e=>e==="true";const t=o("false");const i=/[\W_]/g;const r=window.location.hostname.includes("sandbox");let n="https://www.ebay.com";if(r){n=n.replace("www","sandbox")}e.__private=e.__private||{};e.C={siteId:"224",env:"production",lng:"ja-JP",pageId:Number("4432023"),xhrBaseUrl:n};e.__private.risk={behavior_collection_interval:JSON.parse("{\"2500857\":5000,\"2507978\":5000,\"default\":15000}"),id:window.GHpre?.userId};e.__private.fsom={linkUrl:"https://www.m.ebay.com",linkText:"モバイルサイトに切り替える"};e.__private.ACinit={isGeo:o("true"),isQA:t,factors:JSON.parse("[]")};e.__private.isQA=t;try{e.__private.ghx=[...(window.GHpre?.ghxc||[]).map((e=>e.replace(i,""))),...(window.GHpre?.ghxs||[]).map((e=>e.replace(i,"")))]}catch(o){e.__private.ghx=[]}e.resetCart=function(o){const t=new CustomEvent("updateCart",{detail:o});document.dispatchEvent(t);e.__private.cartCount=o};e.userAuth=window.GHpre?.userAuth||false;e.shipToLocation=window.GHpre?.shipToLocation;window.GH=e}catch(o){console.error(o);window.GH=e||{}}})();
+
+

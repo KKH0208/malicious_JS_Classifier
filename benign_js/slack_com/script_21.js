@@ -1,0 +1,5 @@
+/* 元のURL: https://slack.com */
+// 外部JS: https://a.slack-edge.com/bv1-13/expanded-marketing-page-footer.4dc8130328de8c4f4298.marketing.min.js
+(globalThis.webpackChunkwebapp=globalThis.webpackChunkwebapp||[]).push([["expanded-marketing-page-footer"],{0x1e41869f9:()=>{let e=document.querySelector("body").querySelector(".c-nav--expanded-footer"),t=e.querySelectorAll(".dropdown_button"),o=e.querySelectorAll("svg");document.addEventListener("DOMContentLoaded",()=>{e&&(t.length>0&&t.forEach(t=>{t.addEventListener("click",()=>(t=>{let o=e.querySelector(".nav_parent_l1.open");if(o&&o!==t){o.classList.remove("open");let e=o.querySelector(".dropdown_button");e?.setAttribute("aria-expanded","false")}let r=t.querySelector(".dropdown_button");t.classList.contains("open")?(t.classList.remove("open"),r?.setAttribute("aria-expanded","false")):(t.classList.add("open"),r?.setAttribute("aria-expanded","true"))})(t.parentNode))}),o.forEach(e=>{e.setAttribute("role","presentation")}))})}},e=>{e(e.s=0x1e41869f9)}]);
+//# sourceMappingURL=https://slack.com/source-maps/bv1-13/expanded-marketing-page-footer.4dc8130328de8c4f4298.marketing.min.js.map
+

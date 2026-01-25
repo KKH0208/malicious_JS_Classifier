@@ -1,0 +1,3 @@
+/* 元のURL: https://bit.ly */
+// 外部JS (読み込み失敗): data:application/javascript,%0A%21function%28%29%7Bvar%20t%3D%22%22%3Bwindow.location.hostname.includes%28%22bitly.com%22%29%7C%7C%28t%3D%22-test%22%29%3Bvar%20e%3D%22https%3A%2F%2Fcdn.cookielaw.org%2Fconsent%2F26c7d0bf-48ec-4646-8f57-e4e1135d9d05%22%2Bt%2B%22%2FOtAutoBlock.js%22%2Cc%3D%2226c7d0bf-48ec-4646-8f57-e4e1135d9d05%22%2Bt%2Co%3Ddocument.createElement%28%22script%22%29%3Bo.type%3D%22text%2Fjavascript%22%2Co.src%3De%3Bvar%20a%3Ddocument.createElement%28%22script%22%29%3Ba.type%3D%22text%2Fjavascript%22%2Ca.src%3D%22https%3A%2F%2Fcdn.cookielaw.org%2Fscripttemplates%2FotSDKStub.js%22%2Ca.setAttribute%28%22data-domain-script%22%2Cc%29%2Cdocument.head.prepend%28a%29%7D%28%29%0A
+

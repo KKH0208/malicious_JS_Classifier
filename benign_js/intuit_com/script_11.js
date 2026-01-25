@@ -1,0 +1,4 @@
+/* 元のURL: https://intuit.com */
+// 外部JS: https://intuit.com/_next/static/chunks/453.302148a1fc5716cdf8e3.js
+(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[453],{oRxe:function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return c}));var r=t("Pgmn"),o=t.n(r);function a(){return(a=Object.assign||function(e){for(var n=1;n<arguments.length;n++){var t=arguments[n];for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r])}return e}).apply(this,arguments)}const c=e=>{let n=e.children,t=e.pricingContext,c=e.attributes,i=void 0===c?{}:c;return o.a.createElement("div",a({className:"core-block-container","data-testid":"ReusableBlocks"},i),r.Children.map(n,(e=>Object(r.cloneElement)(e,{pricingContext:t}))))};c.defaultProps={children:null,pricingContext:{}},c.displayName="ReusableBlocks"}}]);
+

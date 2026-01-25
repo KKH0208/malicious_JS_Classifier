@@ -1,0 +1,5 @@
+/* 元のURL: https://microsoft.com */
+// 外部JS: https://microsoft.com/echo/etc.clientlibs/microsoft/components/content/socialfollow/v1/socialfollow/clientlibs/site.ACSHASHb65a051bd39f23fb21bc2a225b90a8a5.min.js
+$(document).ready(function(){var a=window.matchMedia("(prefers-color-scheme: dark)");a.addEventListener("change",function(k){var d=document.querySelectorAll(".socialfollow .socialfollow-li img");if(d)for(var e=0;e<d.length;e++){var b=d[e].getAttribute("src"),g=d[e].getAttribute("data-src");b&&(k.matches?(-1<b.indexOf("\x26fmt\x3dpng-alpha")&&(b=b.replace("\x26fmt\x3dpng-alpha",""),d[e].setAttribute("src",b)),-1<b.indexOf("?fmt\x3dpng-alpha")&&(b=b.replace("?fmt\x3dpng-alpha",""),d[e].setAttribute("src",
+b))):g&&d[e].setAttribute("src",g))}});if(a.matches&&(a=document.querySelectorAll(".socialfollow .socialfollow-li img")))for(var f=0;f<a.length;f++){var c=a[f].getAttribute("src"),h=a[f].getAttribute("data-src");c&&(-1<c.indexOf("\x26fmt\x3dpng-alpha")?(c=c.replace("\x26fmt\x3dpng-alpha",""),a[f].setAttribute("src",c)):-1<c.indexOf("?fmt\x3dpng-alpha")?(c=c.replace("?fmt\x3dpng-alpha",""),a[f].setAttribute("src",c)):h&&a[f].setAttribute("src",h))}});
+

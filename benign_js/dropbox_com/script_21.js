@@ -1,0 +1,3 @@
+/* 元のURL: https://dropbox.com */
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Dropbox","description":"Dropbox is a home for all of your work. You can store and share files, collaborate on projects and bring your best ideas to life – whether you’re working alone or as part of a team.","applicationCategory":"Productivity","aggregateRating":{"@type":"AggregateRating","ratingValue":4.8,"reviewCount":424618},"operatingSystem":"Mac OS X, Windows, Linux, Android, iOS","offers":{"@type":"Offer","category":"free","price":0,"priceCurrency":"USD"}}
+

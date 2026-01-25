@@ -1,0 +1,3 @@
+/* 元のURL: https://vimeo.com */
+self.__next_f.push([1,"69:I[74780,[],\"IconMark\"]\n4f:[\"$\",\"span\",null,{\"className\":\"play-btn-sr-text sr-only\",\"children\":\"Play\"}]\n50:[\"$\",\"svg\",null,{\"width\":\"24px\",\"height\":\"24px\",\"viewBox\":\"0 0 24 24\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"className\":\"w-6 h-6 transition-all duration-350 ease-in-out\",\"children\":[\"$\",\"g\",null,{\"fill\":\"currentColor\",\"children\":[\"$\",\"path\",null,{\"d\":\"M4 2.99993C4.62163 2.61583 5.92539 2.87282 6.7228 3.27138L19.5847 9.69994C20.4562 10.1355 21.5 11.026 21.5 12C21.5 12.974 20.4562 13.8643 19.5847 14.2999L6.7228 20.7284C5.92539 21.127 4.75838 21.4685 4 21C3.24162 20.5315 3 19.3197 3 18.4285V5.57133C3 4.68013 3.24162 3.46846 4 2.99993Z\"}]}]}]\n"])
+

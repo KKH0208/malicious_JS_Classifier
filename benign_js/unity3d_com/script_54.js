@@ -1,0 +1,3 @@
+/* 元のURL: https://unity3d.com */
+self.__next_f.push([1,"4:[\"$\",\"html\",null,{\"lang\":\"en\",\"className\":\"__variable_8b3a0b __variable_74066e md:scroll-smooth\",\"data-sentry-component\":\"RootLayout\",\"data-sentry-source-file\":\"layout.tsx\",\"children\":[[\"$\",\"body\",null,{\"children\":[\"$\",\"$L10\",null,{\"data-sentry-element\":\"GlobalProviders\",\"data-sentry-source-file\":\"layout.tsx\",\"children\":[\"$L11\",false]}]}],[\"$\",\"$L12\",null,{\"locale\":\"en\",\"data-sentry-element\":\"GlobalScripts\",\"data-sentry-source-file\":\"layout.tsx\"}],[[\"$\",\"$L13\",null,{\"moduleIds\":[\"app/[locale]/layout.tsx -\u003e @/components/Experiment/ExperimentTracker\"]}],\"$L14\"]]}]\n"])
+

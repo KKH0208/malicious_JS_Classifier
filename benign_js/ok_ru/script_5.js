@@ -1,0 +1,3 @@
+/* 元のURL: https://ok.ru */
+if ('serviceWorker' in navigator) { window.addEventListener('load', function(){ navigator.serviceWorker.register(swPath); }); }
+

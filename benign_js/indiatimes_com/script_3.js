@@ -1,0 +1,3 @@
+/* 元のURL: https://indiatimes.com */
+{"@context":"https://schema.org","@type":"WebPage","name":"Indiatimes: Latest in Lifestyle, Health, Fashion, and Wellness","description":"Indiatimes is your destination when it comes to exploring the latest in lifestyle trends, health and wellness hacks, and fashion advice. From food fads to travel tips and relationship rules, we tell you how to live your best life. Bookmark this for all the latest lifestyle content tailored just for you.","keywords":"Indiatimes, latest news, trending news, lifestyle news, bollywood, entertainment, worth, investment","url":"https://www.indiatimes.com"}
+

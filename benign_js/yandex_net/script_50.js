@@ -1,0 +1,3 @@
+/* 元のURL: https://yandex.net */
+home.esBridge.define("entry-src-components-NoCrossoriginLogger--Inner-index.js",["index.js","esBridge.standalone.js","stat.standalone.js","init-suggest.standalone.js"],function(){let{s:e,e:s}=home.esBridge.get("index.js"),{l:n}=home.esBridge.get("esBridge.standalone.js");e("488d9a9a0527222f22bad88e08948aa5",()=>(s(()=>{let e=setTimeout(()=>{var e;null==(e=performance.getEntriesByType("resource"))||e.filter(e=>"initiatorType"in e&&"script"===e.initiatorType&&"responseStatus"in e&&0===e.responseStatus&&e.name.includes("yastatic.net")).forEach(e=>n({message:"Loading script without crossorigin",block:"i-no-crossorigin-logger",level:"info",meta:{url:e.name}}))},1e4);return()=>{clearTimeout(e)}},[]),null))});
+

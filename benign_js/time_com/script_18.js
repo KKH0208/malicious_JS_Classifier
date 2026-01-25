@@ -1,0 +1,4 @@
+/* 元のURL: https://time.com */
+// 外部JS: https://time.com/redesign/_next/static/chunks/app/global-error-4f66e54cc9077f88.js
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[470],{97932:function(e,n,r){Promise.resolve().then(r.bind(r,21667))},21667:function(e,n,r){"use strict";r.r(n),r.d(n,{default:function(){return c}});var i=r(57437),l=r(2265);function c(e){let{error:n}=e;return(0,l.useEffect)(()=>{var e,r;(null===(r=window)||void 0===r?void 0:null===(e=r.newrelic)||void 0===e?void 0:e.noticeError)&&window.newrelic.noticeError(n)},[n]),(0,i.jsx)("html",{children:(0,i.jsx)("body",{children:(0,i.jsxs)("div",{className:"col-span-full flex h-screen flex-col  items-center justify-center",children:[(0,i.jsx)("h1",{children:"Oops! Something went wrong "}),(0,i.jsx)("p",{children:"We'll be back shortly..."})]})})})}}},function(e){e.O(0,[971,117,744],function(){return e(e.s=97932)}),_N_E=e.O()}]);
+

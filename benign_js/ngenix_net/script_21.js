@@ -1,0 +1,4 @@
+/* 元のURL: https://ngenix.net */
+// 外部JS: https://ngenix.net/wp-content/themes/ngenix-reboot/assets/js/modules/npm.side-channel-list.js?ver=6.5.7
+"use strict";(self.webpackChunkngenix_assets=self.webpackChunkngenix_assets||[]).push([[3186],{4803:function(n,e,t){var u=t(8859),r=t(9675),i=function(n,e,t){for(var u,r=n;null!=(u=r.next);r=u)if(u.key===e)return r.next=u.next,t||(u.next=n.next,n.next=u),u};n.exports=function(){var n,e={assert:function(n){if(!e.has(n))throw new r("Side channel does not contain "+u(n))},delete:function(e){var t=n&&n.next,u=function(n,e){if(n)return i(n,e,!0)}(n,e);return u&&t&&t===u&&(n=void 0),!!u},get:function(e){return function(n,e){if(n){var t=i(n,e);return t&&t.value}}(n,e)},has:function(e){return function(n,e){return!!n&&!!i(n,e)}(n,e)},set:function(e,t){n||(n={next:void 0}),function(n,e,t){var u=i(n,e);u?u.value=t:n.next={key:e,next:n.next,value:t}}(n,e,t)}};return e}}}]);
+

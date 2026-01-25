@@ -1,0 +1,231 @@
+/* 元のURL: https://ubuntu.com */
+
+      const testTakeover = document.getElementById('test-takeover');
+      const mainTakeover = document.getElementById('takeover');
+
+      const getCookie = () => document.cookie.match(new RegExp('(^| )' + "control_or_variant" + '=([^;]+)'));
+      // Switch for turning takeover switching on and off on demand
+      const takeoverSwitch = false;
+      if (!takeoverSwitch) document.cookie = 'control_or_variant=;';
+      else {
+        // check if user doesn't already have a group
+        if (!getCookie()) {
+          // randomly assign to 'control' or 'variant' group
+          const group = Math.random() > 0.5 ?
+            "control" :
+            "variant";
+
+          // store group as cookie for 365 days
+          document.cookie = 'control_or_variant=' + group + ';max-age=31536000;';
+
+          // send group info in GA event
+          dataLayer.push({
+            event: "test",
+            test_type: "element visibility",
+            control_or_variant: group,
+          });
+        }
+      }
+
+      if (getCookie()?.[2] === 'variant') {
+        testTakeover.hidden = false;
+        mainTakeover.hidden = true;
+      } else {
+        testTakeover.hidden = true;
+        mainTakeover.hidden = false;
+      }
+
+      // get the users language and remove any extra detail suffix (e.g. -gb)
+      var primaryParentLanguage = getPrimaryParentLanguage();
+
+      // get notices matching the user language
+      var notices = document.querySelectorAll(".notice[lang=" + primaryParentLanguage + "]");
+
+      // display only one matching notice
+      if (notices.length > 0) {
+        notices[0].classList.remove("u-hide")
+      }
+
+      var baseTakeover = document.getElementById('takeover');
+      let takeoverAnimation;
+      if (getCookie()?.[2] === 'variant') {
+        takeoverAnimation = document.getElementById("test-takeover-animaition");
+      } else {
+        takeoverAnimation = document.getElementById("takeover-animaition");
+      }
+
+      if (window.localStorage && baseTakeover) {
+        /**
+         * Choose a takeover
+         * ===
+         *
+         * From the list of provided takeovers from /.takeovers.json,
+         * choose one (that matches the client's language), and replace the
+         * base template with it.
+         */
+
+        var xhr = new XMLHttpRequest();
+        if (window.ActiveXObject) {
+          xhr = new ActiveXObject('Microsoft.XMLHTTP');
+        }
+        var fetchUserCountry = new XMLHttpRequest();
+        if (window.ActiveXObject) {
+          fetchUserCountry = new ActiveXObject('Microsoft.XMLHTTP');
+        }
+
+        xhr.onreadystatechange = function() {
+          if (xhr.readyState == XMLHttpRequest.DONE) {
+            if (xhr.status === 200) {
+              var takeovers = JSON.parse(xhr.responseText);
+
+              // Get the selected takeovers based on the primary language
+              if (
+                fetchUserCountry.readyState == XMLHttpRequest.DONE &&
+                fetchUserCountry.status == 200
+              ) {
+                var userCountry = JSON.parse(fetchUserCountry.responseText).country_code;
+                var selectedTakeovers = takeovers.filter(function(item) {
+                  if (item.target_country && item.target_country == userCountry) {
+                    return true;
+                  } else if (item.lang === primaryParentLanguage || item.lang === "") {
+                    return true;
+                  } else {
+                    return false;
+                  }
+                });
+              } else {
+                var selectedTakeovers = takeovers.filter(function(item) {
+                  if (item.lang === primaryParentLanguage || item.lang === "") {
+                    return true;
+                  } else {
+                    return false;
+                  }
+                });
+              }
+
+              if (selectedTakeovers && selectedTakeovers.length > 0) {
+                var selectedIndex = null;
+
+                if (window.localStorage.getItem("selected_takeover_index") !== null) {
+                  // If we previously visited a takeover, increment the number to show the next takeover
+                  var nextIndex =
+                    parseInt(window.localStorage.getItem("selected_takeover_index")) + 1;
+                  selectedIndex = nextIndex < selectedTakeovers.length ? nextIndex : 0;
+                } else {
+                  // Otherwise, randomly choose one of the takeovers and store it for next time
+                  selectedIndex = Math.floor(Math.random() * selectedTakeovers.length);
+                }
+                showTakeover(selectedTakeovers, selectedIndex);
+
+                // Store the current takeover index
+                localStorage.setItem("selected_takeover_index", selectedIndex);
+              }
+
+
+            } else {
+              takeoverAnimation.className = takeoverAnimation.className.replace(" is-loading", "");
+              takeoverAnimation.className += " is-loaded";
+            }
+          }
+        };
+
+        xhr.open("GET", "/takeovers.json", true);
+        xhr.send();
+
+        const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+        fetchUserCountry.open("GET", `/user-country-tz.json?tz=${timezone}`, true);
+        fetchUserCountry.send();
+      }
+
+      function showTakeover(takeovers, index) {
+        // Default parameter
+        index = typeof index !== 'undefined' ? index : 0;
+
+        // Get HTML elements for the correct takeover
+        let takeover, title, subtitle, image, primaryUrl, secondaryUrl;
+        if (getCookie()?.[2] === 'variant') {
+          takeover = document.getElementById("test-takeover");
+          title = document.getElementById("test-takeover-title");
+          subtitle = document.getElementById("test-takeover-subtitle");
+          image = document.getElementById("test-takeover-image");
+          primaryUrl = document.getElementById("test-takeover-primary-url");
+        } else {
+          takeover = document.getElementById("takeover");
+          title = document.getElementById("takeover-title");
+          subtitle = document.getElementById("takeover-subtitle");
+          image = document.getElementById("takeover-image");
+          primaryUrl = document.getElementById("takeover-primary-url");
+          secondaryUrl = document.getElementById("takeover-secondary-url");
+        }
+
+        // Set values to homepage takeover
+        var selectedTakeover = takeovers[index];
+
+        takeover.className = "";
+        takeover.removeAttribute("style");
+
+        // Add takeover classes
+        var classNameString = "js-takeover p-takeover--" + selectedTakeover.class;
+        takeover.className += classNameString;
+
+        // Set language attributes
+        if (selectedTakeover.lang) {
+          takeover.setAttribute("lang", selectedTakeover.lang);
+        }
+        if (selectedTakeover.lang_skip) {
+          takeover.setAttribute("lang-skip", selectedTakeover.lang_skip);
+        }
+
+        // Set takeover content
+        if (title.textContent.length > 80 || subtitle.textContent.length > 80) {
+          title.classList.remove("u-no-margin--bottom")
+          subtitle.classList.remove("p-heading--2")
+        }
+
+        title.textContent = selectedTakeover.title;
+        subtitle.textContent = selectedTakeover.subtitle;
+
+        image.src = selectedTakeover.image;
+        image.srcset = selectedTakeover.image;
+
+        image.onload = function() {
+          // Remove animation delay
+          if (takeoverAnimation) {
+            takeoverAnimation.className = takeoverAnimation.className.replace(" is-loading", "");
+            takeoverAnimation.className += " is-loaded";
+          }
+        }
+
+        if (image.getAttribute("src") === "") {
+          takeoverAnimation.className = takeoverAnimation.className.replace(" is-loading", "");
+          takeoverAnimation.className += " is-loaded";
+        }
+
+        image.removeAttribute("style");
+        image.width = selectedTakeover.image_width;
+        image.height = selectedTakeover.image_height;
+
+        if (selectedTakeover.primary_url && selectedTakeover.primary_cta) {
+          primaryUrl.href = selectedTakeover.primary_url;
+          primaryUrl.textContent = selectedTakeover.primary_cta;
+        } else {
+          primaryUrl.remove();
+        }
+
+        if (secondaryUrl && selectedTakeover.secondary_url && selectedTakeover.secondary_url !== "") {
+          secondaryUrl.href = selectedTakeover.secondary_url;
+          secondaryUrl.innerHTML = selectedTakeover.secondary_cta + "&nbsp;&rsaquo;";
+        } else {
+          secondaryUrl?.remove();
+        }
+
+        dataLayer.push({
+          event: "NonInteractiveGAEvent",
+          eventCategory: "www.ubuntu.com-impression-takeover",
+          eventAction: "from:" + window.location.href + " to:" + selectedTakeover.primary_url,
+          eventLabel: selectedTakeover.primary_cta,
+          eventValue: undefined,
+        });
+      }
+    
+

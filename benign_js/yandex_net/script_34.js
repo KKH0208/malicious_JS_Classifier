@@ -1,0 +1,3 @@
+/* 元のURL: https://yandex.net */
+home.esBridge.define("shared-AbyYkbKLQZoVo7yKf6YYtDRY9GLa4IThFRGLEQU1UO8.js",["index.js","esBridge.standalone.js"],function(){let{s:e,j:a,t:i,_:n,r:s,o:t}=home.esBridge.get("index.js"),d=i(()=>n(()=>home.esBridge.getDynamic("./entry-src-components-AliceOnboarding--WithStrategies-index.js"),void 0),{name:"AliceOnboardingWithStrategies",esBridgeId:"entry-src-components-AliceOnboarding--WithStrategies-index.js"}),r=e=>{let i=s("2437a632a27a183a90d711176a747547");return i?a.jsx(d,{outerProps:e,data:i}):null};e("2437a632a27a183a90d711176a747547",r);let o=t({_id:"a378a2690d50555ed2b548fa55bc52cf",common:r});home.esBridge.set("shared-AbyYkbKLQZoVo7yKf6YYtDRY9GLa4IThFRGLEQU1UO8.js",{A:o})});
+

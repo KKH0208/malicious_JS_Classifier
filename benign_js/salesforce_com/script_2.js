@@ -1,0 +1,3 @@
+/* 元のURL: https://salesforce.com */
+window.sfdcBase = Object.assign(window.sfdcBase||{}, {"env":"PROD","ssoEnabled":true,"clientErrorThreshold":10,"clientErrorEndpoint":"https://www.salesforce.com/c2/clerr","resourcePrefix":"/c2","gtmContainerId":"GTM-WRXS6TH","demandbaseDisabled":false,"iisDisabled":false,"neustarDisabled":false,"page":{"pagename":"SFDC:jp:homepage","type":"Home Page","locale":"jp","segment":"non-customer:jp","sitesection":"jp:homepage","uiframework":"Page Builder"},"exp":{"label":"Page Builder"},"optimizely":{"enabled":true,"cdnUrl":"https://cdn.optimizely.com/js/27719220368.js"},"iisVersion":"v1-stable","locale":"ja-jp"});
+

@@ -1,0 +1,3 @@
+/* 元のURL: https://tiktok.com */
+{"kind":"t","captcha":"","imApi":"https://im-api-sg.tiktok.com","imFrontier":"wss://im-ws-sg.tiktok.com/ws/v2","mTApi":"https://t.tiktok.com","rootApi":"https://www.tiktok.com","secSDK":"","slardar":"mon.tiktokv.com","starling":"https://starling-sg.tiktokv.com","tea":"https://mcs-sg.tiktokv.com","teaChannel":"sg","teaChannelType":"tcpy","libraWebSDK":"https://libraweb-sg.tiktok.com","webcastApi":"https://webcast.tiktok.com","webcastRootApi":"https://webcast.tiktok.com","tcc":"https://sf-tcc-config.tiktokcdn.com/obj/tcc-config-web-alisg/","locationApi":"https://location-sg.tiktokv.com"}
+

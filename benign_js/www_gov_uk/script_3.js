@@ -1,0 +1,4 @@
+/* 元のURL: https://www.gov.uk */
+// 外部JS: https://www.gov.uk/assets/frontend/govuk_publishing_components/rum-loader-a65b10e18ceeba3bd8a2eac507c7f2c513cdc82f35097df903fdea87f1dc2e33.js
+!function(){var e=function(){try{for(var e=document.cookie.split(";"),r=0;r<e.length;r++){var t=e[r].replace(/\s/g,""),o="cookies_policy=";if(0===t.indexOf(o))return JSON.parse(t.substring(o.length))}}catch(e){console.error(e)}return{}}(),r=function(){window.removeEventListener("cookie-consent",r);var e=document.querySelector("script[data-lux-reporter-script]");if(e){var t=document.createElement("script");t.src=e.getAttribute("data-lux-reporter-script"),t.async=!0,t.defer=!0,e.parentNode.insertBefore(t,e)}else console.error("Failed to configure real-user-monitoring because couldn't the lux-reporter script path wasn't available")};!0===e.usage?r():window.addEventListener("cookie-consent",r)}();
+

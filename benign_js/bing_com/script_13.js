@@ -1,0 +1,4 @@
+/* 元のURL: https://bing.com */
+// 外部JS: https://bing.com/rp/32Mg7EgzYL5w9H1zJFQq0W2pn-Y.gz.js
+var _w=window,_d=document,sb_ie=window.ActiveXObject!==undefined,sb_i6=sb_ie&&!_w.XMLHttpRequest,_ge=function(n){return _d.getElementById(n)},_qs=function(n,t){return t=typeof t=="undefined"?_d:t,t.querySelector?t.querySelector(n):null},sb_st=function(n,t){return setTimeout(n,t)},sb_rst=sb_st,sb_ct=function(n){clearTimeout(n)},sb_gt=function(){return(new Date).getTime()},sj_gx=function(){return sb_i6?new ActiveXObject("MSXML2.XMLHTTP"):new XMLHttpRequest};_w.sj_ce=function(n,t,i){var r=_d.createElement(n);return t&&(r.id=t),i&&(r.className=i),r};_w.sj_cook=_w.sj_cook||{get:function(n,t){var i=_d.cookie.match(new RegExp("\\b"+n+"=[^;]+")),r;return t&&i?(r=i[0].match(new RegExp("\\b"+t+"=([^&]*)")),r?r[1]:null):i?i[0]:null}};_w.sk_merge||(_w.sk_merge=function(n){_d.cookie=n})
+

@@ -1,0 +1,5 @@
+/* 元のURL: https://microsoft.com */
+// 外部JS: https://microsoft.com/etc.clientlibs/microsoft/components/content/holiday-themer/v1/holiday-themer/clientlibs/site.ACSHASHca07771c800c8dbc085e2a351d219e77.min.js
+!function(){var e={n:function(b){var a=b&&b.__esModule?function(){return b.default}:function(){return b};return e.d(a,{a:a}),a},d:function(b,a){for(var c in a)e.o(a,c)&&!e.o(b,c)&&Object.defineProperty(b,c,{enumerable:!0,get:a[c]})},o:function(b,a){return Object.prototype.hasOwnProperty.call(b,a)}};e.n(jQuery)()(function(){document.querySelectorAll(".holidayThemer").forEach(function(b){if("true"===b.getAttribute("data-enable-schedule-control")){var a,c,d=null===(a=b.getAttribute("data-start-date"))||
+void 0===a?void 0:a.split(/[- :]/).map(Number);a=null===(c=b.getAttribute("data-end-date"))||void 0===c?void 0:c.split(/[- :]/).map(Number);d&&a&&0<d.length&&0<a.length&&(c=Date.UTC(d[0],d[1]-1,d[2],d[3],d[4]),d=Date.UTC(a[0],a[1]-1,a[2],a[3],a[4]),a=Date.now(),c<=a&&a<d?console.log("displaying component"):(console.log("displaying removed"),b.remove()))}})})}();
+

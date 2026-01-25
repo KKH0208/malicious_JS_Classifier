@@ -1,0 +1,3 @@
+/* 元のURL: https://dell.com */
+Dell=window.Dell||{};Dell.Metrics=Dell.Metrics||{};Dell.Metrics.sc=Dell.Metrics.sc||{};Dell.Api=Dell.Api||{};Dell.Api.url=Dell.Api.url||{UserState:'//www.dell.com/csbapi/ja-jp/masthead/external/usercontext'};window.Dell.Metrics.sc={"country":"jp","language":"ja","segment":"gen","customerset":"jpcorp1","pagename":"dell.com responsive homepage","applicationname":"homepage","s_account":"dellglobalonline","dc":"dell","cms":"stp","prod":"true","waapplicationname":"dellhomepage","module":"csb_homepage","dellexperiment":"homepageredesign","bodyhiding":"false","hppersona":"dtcold","requestOrigin":"dell.com","bcvideo":"true","wacontroller":"dellhomepage"};
+

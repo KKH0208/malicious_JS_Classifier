@@ -1,0 +1,3 @@
+/* 元のURL: https://ok.ru */
+function refreshCaptcha() { var img = document.getElementById("captcha"); img.src = img.src + '&' + (new Date().getTime()); document.getElementById('field_code').focus(); }
+

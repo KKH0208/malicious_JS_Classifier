@@ -1,0 +1,6 @@
+/* 元のURL: https://github.com */
+// 外部JS: https://github.githubassets.com/assets/global-banner-disable-bd97b48d5503.js
+(()=>{var e={47528:()=>{let e=document.cookie.match(RegExp("(?:^|;\\s*)disabled_global_site_banners\\s*=\\s*([^;]+)")),t=e?e[1]:null;if(t){let e=t.split(",")||[];for(let t=0;t<e.length;t++){let r=document.getElementById(e[t]||"");r&&(r.hidden=!0)}}}},t={};function r(n){var o=t[n];if(void 0!==o)return o.exports;var a=t[n]={exports:{}};return e[n](a,a.exports,r),a.exports}r.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return r.d(t,{a:t}),t},r.d=(e,t)=>{for(var n in t)r.o(t,n)&&!r.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},r.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),(()=>{var e=r.u,t=r.e,n={},o={};r.u=function(t){return e(t)+(n.hasOwnProperty(t)?"?"+n[t]:"")},r.e=function(a){return t(a).catch(function(t){var u=o.hasOwnProperty(a)?o[a]:3;if(u<1){var s=e(a);throw t.message="Loading chunk "+a+` failed after 3 retries.
+(`+s+")",t.request=s,t}return new Promise(function(e){var t=3-u+1;setTimeout(function(){n[a]="cache-bust=true&retry-attempt="+t,o[a]=u-1,e(r.e(a))},0)})})}})(),(()=>{"use strict";r(47528)})()})();
+//# sourceMappingURL=global-banner-disable-98ff2cd9a042.js.map
+

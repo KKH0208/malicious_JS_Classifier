@@ -1,0 +1,4 @@
+/* 元のURL: https://booking.com */
+booking.jstmpl('length_of_stay_detailed', (function () { var T = ["","\n\u003cspan class=\"c2-calendar-footer__inner-wrap\"\u003e\n","sbox_calendar_num_nights_2","\u003c/strong\u003e","\u003cstrong\u003e","\n\u003c/span\u003e\n"], V = ["b_interval","b_checkin_date_formatted","b_checkout_date_formatted"], WV, LV, VA; return function (VS) { var s = '', r = this.fn; function searchbox_partial_length_of_stay_detailed_string_inc1(s) { s += [ T[1],         ( VS.unshift({'checkin_date': r.MC(V[1]), 'checkout_date': r.MC(V[2]), 'end_bold': T[3], 'num_nights': r.MC(V[0]), 'start_bold': T[4]}), (VA = r.VP(T[2], r.MO(r.MC(V[0]), null, T[2]))), VS.shift(), VA ) , T[5] ].join( '' ); return s; } s += T[0]; s = searchbox_partial_length_of_stay_detailed_string_inc1(s); return s; }; } )());
+
+

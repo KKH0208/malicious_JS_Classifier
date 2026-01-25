@@ -1,0 +1,5 @@
+/* 元のURL: https://booking.com */
+// 外部JS: https://cf.bstatic.com/psb/capla/static/js/d453fd14.f746397a.chunk.js
+"use strict";(self["b-index-lp-web-mfe__LOADABLE_LOADED_CHUNKS__"]=self["b-index-lp-web-mfe__LOADABLE_LOADED_CHUNKS__"]||[]).push([["d453fd14"],{"44312f8c":(e,r,s)=>{s.d(r,{Z:()=>c});var t=s("ead71eb0"),n=s.n(t),l=s("d16e9636"),d=s.n(l);const o=(0,l.loadable)({resolved:{},chunkName(){return"bWebShellComponents-GlobalAlerts"},isReady(e){const r=this.resolve(e);return!0===this.resolved[r]&&!!s.m[r]},importAsync:()=>s.e("426efd8a").then(s.t.bind(s,"e32ecee7",23)),requireAsync(e){const r=this.resolve(e);return this.resolved[r]=!1,this.importAsync(e).then((e=>(this.resolved[r]=!0,e)))},requireSync(e){const r=this.resolve(e);return s(r)},resolve(){return"e32ecee7"}}),i=()=>n().createElement(o,{regionId:"IndexPage"}),c=i},b6da734c:(e,r,s)=>{s.r(r),s.d(r,{default:()=>t.Z});var t=s("44312f8c")}}]);
+//# sourceMappingURL=https://istatic.booking.com/internal-static/capla/static/js/d453fd14.f746397a.chunk.js.map
+

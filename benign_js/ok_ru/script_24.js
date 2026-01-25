@@ -1,0 +1,3 @@
+/* 元のURL: https://ok.ru */
+require(['OK/TracerService'], function (module) { module.default.init({"crashToken":"R6AClvRIjAuEzTGz9KZiHE2e3MJRa6Y4vKsyjotnwsS0","buildNumber":"1.1.183","userStatId":"883414d4-8dbd-4171-8f74-b99fec4dc22b","environment":"prod","userId":"0","modules":["LOG","ERROR"],"ignoreErrors":["one-video-player","chrome-extension","ad.mail.ru"],"nonFatalErrors":["ok_ads_in_apps","https://yandex.ru/ads/system/context.js","Failed to register a ServiceWorker","Internal error","Requested device not found","The request is not allowed","NetworkError","network error","Failed to fetch","Load failed","Failed to load"]}); });
+

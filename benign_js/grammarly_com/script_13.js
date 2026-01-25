@@ -1,0 +1,4 @@
+/* 元のURL: https://grammarly.com */
+// 外部JS: https://static-web.grammarly.com/cms/master/_next/static/chunks/pages/render-c51be14a2bad36c3.js
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[586],{25830:function(n,t,e){(window.__NEXT_P=window.__NEXT_P||[]).push(["/render",function(){return e(42435)}])},13300:function(n,t,e){"use strict";e.d(t,{j:function(){return _}});var r=e(85893),u=e(57030),i=e(78567),s=e(31409);let _=n=>t=>{let e=(0,u.Zj)();return(0,i.Pe)("cms"),s.we.initOnClient(e),(0,r.jsx)(n,{...t})}},42435:function(n,t,e){"use strict";e.r(t),e.d(t,{__N_SSP:function(){return o}});var r=e(85893);e(67294);var u=e(12918),i=e.n(u),s=e(12286),_=e(4531),c=e(13300);let f=(0,_.r)((0,c.j)(n=>{let{page:t}=n;return t?(0,r.jsx)(s.Q,{pageStructure:t}):(0,r.jsx)(i(),{statusCode:500})}));var o=!0;t.default=f}},function(n){n.O(0,[774,822,587,861,684,888,179],function(){return n(n.s=25830)}),_N_E=n.O()}]);
+

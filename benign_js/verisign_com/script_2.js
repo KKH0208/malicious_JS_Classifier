@@ -1,0 +1,4 @@
+/* 元のURL: https://verisign.com */
+(()=>{var e="U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",o,f=new FontFace("Roboto Serif",`url(${(o=window.__js_prefix_path__)!=null?o:"/"}fonts/Roboto-Semibold-latin.135066818a7fbbfc4d964f1f2f93dca0ddb3503456a9df038c20a4b29d131860.woff2)`,{weight:"600",unicodeRange:e}),n,c=new FontFace("Inter",`url(${(n=window.__js_prefix_path__)!=null?n:"/"}fonts/Inter-Regular-latin.2961762d625bd3a73fa9bdf3f1c897ec4a0ad5cf3e53490c69bc1c15ebf34087.woff2)`,{weight:"400",unicodeRange:e}),a,i=new FontFace("Inter",`url(${(a=window.__js_prefix_path__)!=null?a:"/"}fonts/Inter-Semibold-latin.52fefe04bda9e5814d3f1b232247a714676a6f7820c01cc1be303f4ca72f49ad.woff2)`,{weight:"600",unicodeRange:e});Promise.all([f.load(),c.load(),i.load()]).then(t=>{t.forEach(d=>document.fonts.add(d)),document.documentElement.dataset.fonts="loaded"});})();
+
+

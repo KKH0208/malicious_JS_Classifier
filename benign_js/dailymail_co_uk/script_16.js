@@ -1,0 +1,3 @@
+/* 元のURL: https://dailymail.co.uk */
+!function(){function o(n,i){if(n&&i)for(var r in i)i.hasOwnProperty(r)&&(void 0===n[r]?n[r]=i[r]:n[r].constructor===Object&&i[r].constructor===Object?o(n[r],i[r]):n[r]=i[r])}try{var n=decodeURIComponent("%7B%0A%22Continuity%22%3A%0A%7B%20%22enabled%22%3A%20true%2C%20%22afterOnload%22%3A%20true%2C%20%22afterOnloadMaxLength%22%3A%20false%20%7D%0A%2C%0A%22EventTiming%22%3A%0A%7B%20%22enabled%22%3A%20true%20%7D%0A%7D");if(n.length>0&&window.JSON&&"function"==typeof window.JSON.parse){var i=JSON.parse(n);void 0!==window.BOOMR_config?o(window.BOOMR_config,i):window.BOOMR_config=i}}catch(r){window.console&&"function"==typeof window.console.error&&console.error("mPulse: Could not parse configuration",r)}}();
+
