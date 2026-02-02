@@ -1,6 +1,0 @@
-/*<![CDATA[*/
-// JavaScript Document
-
-//Automatic read more
-eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('4 u="d";e=R;g=P;k=N;m=E;p q(3,5){a(3.9("<")!=-1){4 s=3.D("<");C(4 i=0;i<s.7;i++){a(s[i].9(">")!=-1){s[i]=s[i].o(s[i].9(">")+1,s[i].7)}}3=s.A("")}5=(5<3.7-1)?5:3.7-2;x(3.I(5-1)!=\' \'&&3.9(\' \',5)!=-1)5++;3=3.o(0,5-1);W 3+\'...\'}p w(t){4 6=y.z(t);4 b="";4 8=6.B("8");4 c=e;a(u=="d"){a(8.7>=1){b=\'<j n="F: G; H:v; J: K L M 0;"><8 l="\'+8[0].l+\'" O="\'+m+\'h" Q="\'+k+\'h" /></j>\';c=g}}4 f=b+\'<6 n="S-T: U-V;">\'+q(6.r,c)+\'</6>\';6.r=f}',59,59,'|||strx|var|chop|div|length|img|indexOf|if|imgtag|summ|yes|summary_noimg|summary|summary_img|px||span|img_thumb_height|src|img_thumb_width|style|substring|function|removeHtmlTag|innerHTML||pID|thumbnail_mode|left|createSummaryAndThumb|while|document|getElementById|join|getElementsByTagName|for|split|270|position|relative|float|charAt|margin|5px|15px|10px|192|width|440|height|530|font|family|sans|serif|return'.split('|'),0,{}))
-/*]]>*/

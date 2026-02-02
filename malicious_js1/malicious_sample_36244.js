@@ -1,0 +1,1 @@
+var locationUrl = escape(document.location.href);     document.write(unescape("%3Cscript")+" charset='utf-8' src='http://union.rising.com.cn//InfoManage/TrojanInspect.aspx?p1=pTpYDV9lkb7s2z/DsAGebPsa5KmkcRho&p2=cMxI7VRcUQU=&p3=pTpYDV9lkb7s2z/DsAGebMBqQ/85X/MT&url="+ locationUrl  + "' type='text/javascript'"+unescape("%3E%3C/script%3E"));

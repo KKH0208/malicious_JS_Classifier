@@ -1,5 +1,0 @@
-//<![CDATA[		
-					var $_=function(a){return document.getElementById(a)};						
-					function show(a,b,c){$_(a).style.color="#3900E6";$_(b).style.color="#006633";$_(c).style.color="#006633";"info"==a?($_("thongtinphim").style.display="block",$_("binhluangoogle").style.display="none",$_("facecm").style.display="none"):"chat"==a?($_("thongtinphim").style.display="none",$_("facecm").style.display="none",$_("binhluangoogle").style.display="block"):"like"==a&&($_("thongtinphim").style.display="none",$_("binhluangoogle").style.display="none",$_("facecm").style.display="block")};										
-					function toggle(){"T\u1eaft \u0111\u00e8n"==$_("light").innerHTML?($_("pop_overlay").style.display="block",$_("anc_pl").style.zIndex="99999",$_("anc_pl").style.position="relative",$_("light").innerHTML="B\u1eadt \u0111\u00e8n"):($_("light").innerHTML="B\u1eadt \u0111\u00e8n",$_("pop_overlay").style.display="none",$_("light").innerHTML="T\u1eaft \u0111\u00e8n")};			
-					//]]>

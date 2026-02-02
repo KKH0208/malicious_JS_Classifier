@@ -1,0 +1,90 @@
+<!--
+var boncelOnPictures=[  
+
+"http://3.bp.blogspot.com/_rku6deQBORg/Szh5U6GZ3ZI/AAAAAAAAKU0/K5svWMtY7zQ/s400/Slank.jpg",
+"http://sphotos-a.xx.fbcdn.net/hphotos-snc6/282810_574083542606228_1831134620_n.jpg",
+"http://3.bp.blogspot.com/-L7GErtVs_5k/T0gg-HFhDwI/AAAAAAAAAZQ/ecEcLYN0d60/s1600/Sheila%2BOn%2B7.jpg",
+"http://3.bp.blogspot.com/-yXH45q2-RyU/T0gg9BoGY6I/AAAAAAAAAZI/8ZNrZeWYP5k/s1600/s1.jpg",
+"http://1.bp.blogspot.com/-0Ea4i2xF5jc/TdkNmgs2oLI/AAAAAAAAAFQ/IbPCHapD7ZY/s1600/last+child.jpg",
+"http://wallpoper.com/images/00/21/03/90/music-guns-n-roses_00210390.jpg",
+"http://images.fanpop.com/images/image_uploads/Nirvana-nirvana-65520_1024_768.jpg",
+"http://2.bp.blogspot.com/-Yw1feRA6oH4/ULf3HB08_bI/AAAAAAAAG1o/NcXFvfoW0RQ/s400/2012-11-30_070023.jpg",
+"http://images4.fanpop.com/image/photos/23900000/AA-asking-alexandria-23957014-426-640.jpg",
+"http://3.bp.blogspot.com/_4-QgTn6oQ4Y/S9fzhnAX4GI/AAAAAAAAAUc/CkzJSMYksWA/s1600/green+day.jpg",
+"http://images5.fanpop.com/image/photos/31700000/MUSE-muse-31743945-1280-1024.jpg",
+"http://norocksolo.com/wp-content/uploads/2012/10/muse_5876_11.jpg",
+"http://irockumentary.com/wp-content/uploads/2012/10/pas-band-road-to-soundrenaline-2012-surabaya-irockumentary-music-photography-03.jpg",
+"http://farm6.static.flickr.com/5067/5682590371_0667984ab6.jpg",
+"http://userserve-ak.last.fm/serve/500/61263419/Asking+Alexandria+Reckless+and+Relentless.jpg",
+"http://userserve-ak.last.fm/serve/_/62127817/Asking+Alexandria.jpg",
+"http://farm6.static.flickr.com/5102/5671359651_61400494ca.jpg",
+"http://i291.photobucket.com/albums/ll298/doritodollface/l_8e9994fa0b6b42238fa99d16aaed508e.jpg",
+"http://highwiredaze.com/wordpress/wp-content/uploads/2011/02/h6t1_withonelast-300x200.jpg",
+"http://images4.fanpop.com/image/photos/23900000/AA-asking-alexandria-23957094-500-322.png",
+"http://25.media.tumblr.com/tumblr_m4744guYwc1qdvuulo1_500.jpg",
+"http://littlegirlbiglens.com/wp-content/uploads/2011/03/Asking-Alexandria-Clevelan-3-13-11-Van-Hoff-11-600-751x500.jpg",
+"http://cache1.bigcartel.com/product_images/53838341/asking_alexandria_hmvforum_210112-10.jpg",
+"http://bestmusicwallpapers.com/wp-content/uploads/2012/03/asking-alexandria.jpg",
+"http://farm2.static.flickr.com/1188/5121452092_4bcbc21bbb.jpg",
+"http://data.whicdn.com/images/11760092/Asking+Alexandria+Bleeding+Star+Clothing_large.jpg",
+"http://data.whicdn.com/images/28058839/Asking-Alexandria11_large.jpg",
+"http://theticketrumba.com/ticket/image/production/14/alesana.jpg",
+"http://cdn.buzznet.com/assets/users16/ltfrangel/default/asking-alexandria--large-msg-123674678847.jpg",
+"http://25.media.tumblr.com/tumblr_l9gi8oLXye1qcpw8fo1_500.jpg",
+"http://www.barebonesmusic.com/barebonesmusic/news/Entries/2010/11/7_Interview_with_ASKING_ALEXANDRIA_files/shapeimage_1.png",
+"http://cdn.buzznet.com/assets/users16/clarissabrucato/default/asking-alexandria--large-msg-13061268786.jpg",
+"http://cdn2.mog.com/images/000000041241921063.jpg",
+"http://fc09.deviantart.net/fs70/f/2010/264/9/1/pray_for_plagues_by_holly_acosta-d2z6ud0.jpg",
+"http://91.img.v4.skyrock.net/916/x-blo0dy-b0y-x/pics/788609637_1.gif",
+"http://images.sodahead.com/polls/001125123/bring_me_the_horizon_3_answer_1_xlarge.jpeg",
+"http://2.bp.blogspot.com/-2UC643icgBI/T2djFyNpqEI/AAAAAAAAAGo/b2XsSPG8EAY/s660/421074_251812511572289_251497488270458_532530_2050377385_n.jpg",
+"http://static.nme.com/images/gallery/BringMeTheHorizonDownloadTM110611.jpg",
+"http://3.bp.blogspot.com/_v29dYCa8lvQ/TAhbu1lt0nI/AAAAAAAAADY/iEN_MT4L50w/S1600-R/Satanic-967491.jpeg",
+"http://2.bp.blogspot.com/_jZaXDA2NNK4/SszuFUj6wuI/AAAAAAAAA2c/xiyZqvQ0gpI/s320/bmth.gif",
+"http://videokeman.com/image/pics/BringMeTheHorizonsongPics1k7No2eqrKEk4iM.jpg",
+"http://fc01.deviantart.net/fs70/f/2010/269/6/f/oliver_sykes_5_by_zimshaun-d2zi2jy.jpg",
+"http://www.skysniffer.ru/images/catalog/df12b6f1bf87927c6dde9889423b64cf.jpg",
+"http://24.media.tumblr.com/tumblr_m6nc71ejS11r6d73eo1_500.jpg",
+"http://4.bp.blogspot.com/_iLuvJBWaw3I/TJ_1tCPtcSI/AAAAAAAAAQw/GB6ipT7P-NU/s1600/bring-me-the-horizon-wallpaper-5.jpg",
+"http://userserve-ak.last.fm/serve/_/46196431/Bring+Me+The+Horizon+BringMeTheHorizon2.jpg",
+"http://www.pluginmusic.com/media/bringmethehorizon/bringmethehorizon05.jpg",
+"http://cdn1.ticketsinventory.com/images/last_photos/concert/B/bring-me-the-horizon/bring-me-the-horizon-koln-_13036301960796.png",
+"http://2.bp.blogspot.com/_73SXEvdWYo8/TFqZ_uNfc5I/AAAAAAAABaQ/jUgHlzOS3Po/s1600/AvengedSevenfold.jpg",
+"http://fc09.deviantart.net/fs8/i/2005/360/8/4/Avenged_Sevenfold_Wallpaper_by_Sewerep5.jpg",
+"http://cdn.buzznet.com/assets/users16/almostxeasy/default/avenged-sevenfold-28--large-msg-120958870051.jpg",
+"http://i167.photobucket.com/albums/u142/sabrefly/Singers/avenged_sevenfold.jpg",
+"http://inceptionwallpaper.com/wp-content/uploads/2012/06/A7X-Avenged-Sevenfold-Wallpaper.jpg",
+"http://s3.favim.com/orig/45/a7x-avenged-sevenfold-black-and-white-m-shadows-matt-shadows-Favim.com-405464.jpg",
+"http://userserve-ak.last.fm/serve/500/22918009/Avenged+Sevenfold+A7X.jpg",
+"http://www.wallpapergate.com/data/media/227/Linkin_Park_Wallpaper_005_28192.jpg",
+"http://fc02.deviantart.net/fs14/f/2007/106/7/4/Linkin_Park___Numb_Wallpaper_by_LPJohnBR.jpg",
+"http://www.bandswallpapers.com/data/media/18/Red_Hot_Chili_Peppers_wallpaper_DeMulder.jpg",
+"http://sidomi.com/wp-content/uploads/2012/08/Noah-Kotak.jpg",
+"http://4.bp.blogspot.com/-REPO592NaHM/UFLyfllhiqI/AAAAAAAAB_A/Q6CFmQNpDBY/s1600/Noah+Band+-+Separuh+Aku.jpg",
+"http://cdn.mintees.com.s3.amazonaws.com/files/tees/1/135481/800x400-killims.jpg",
+"http://2.bp.blogspot.com/-WqVAxTg_eBo/T88NeviYqZI/AAAAAAAADfY/hLY5ltDpuME/s1600/Kord+gitar+Iwan+Fals+Di+Ujung+Abad.jpg",
+"http://4.bp.blogspot.com/-BdHw6waXcDs/TwvEDpWi9lI/AAAAAAAAATg/pskweuEYnbU/s1600/iwan+hijau.jpg",
+"http://3.bp.blogspot.com/-FpOG9kG84CA/T5Vs6LJTH6I/AAAAAAAAACA/Yjvm6CI2EzM/s320/oi_001.jpg",
+"http://1.bp.blogspot.com/-_cbArzS3Ne0/UFQlHZgrclI/AAAAAAAAACE/FWd-OYBjVxE/s1600/297791_223035121157182_592899961_n.jpg",
+"http://2.bp.blogspot.com/_WHsrfUCwuuo/S6v84x2NZsI/AAAAAAAACUk/50qvJvvc_eI/s1600/SLANKers.jpg"
+];
+
+function doooSlide(){
+  if(!window.gbrMana){window.gbrMana=0;boncelOnPictures=boncelOnPictures.sort(function(){return 0.5-Math.random()})}
+  if($('#block-all').length==0){$('body').prepend('<div id="block-all" style="display:none;position:fixed;width:100%;height:100%;top:0;left:0;background-color:#000000"></div>')}
+  var nyuimej=new Image();
+  $(nyuimej).attr({'src':boncelOnPictures[gbrMana]}).load(function(){
+    $('#block-all').fadeIn(function(){
+      $('body').css({'background-image':'url('+boncelOnPictures[gbrMana]+')'});
+      if(!window.udahBsize){window.udahBsize=true;$('body').css({'background-size':'100%'})}
+      gbrMana++;
+      if(gbrMana==boncelOnPictures.length){
+        gbrMana=0;boncelOnPictures=boncelOnPictures.sort(function(){return 0.5-Math.random()});
+      }
+      setTimeout("doooSlide()",20000);
+      $('#block-all').fadeOut();
+    });
+  }).error(function(){gbrMana++;doooSlide()});
+}
+$(window).load(doooSlide);
+-->

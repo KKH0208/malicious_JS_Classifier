@@ -1,0 +1,1 @@
+var _thshost = ((document.location.protocol=="https:")?'https://s2.':'http://s2.');document.write(unescape('%3Cscript src=%27'+_thshost+'thstats.com/t.js%27 type=%27text/javascript%27%3E%3C/script%3E'));

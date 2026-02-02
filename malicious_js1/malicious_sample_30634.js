@@ -1,6 +1,0 @@
-//<![CDATA[
-function bnhan(e){img=new Array;for(var t=0;t<numposts;t++){var n=e.feed.entry[t];var r=n.title.$t;if(t==e.feed.entry.length)break;for(var i=0;i<n.link.length;i++){if(n.link[i].rel=="alternate"){posturl=n.link[i].href;break}}if("content"in n){var s=n.content.$t}else if("summary"in n){var s=n.summary.$t}else var s="";if("media$thumbnail"in n){var o=n.media$thumbnail.url}else{var o="#"}if(r.indexOf("-")!=-1){var u=dt(r.split("-")[0]);var a=dt(r.split("-")[1])}else{u=dt(r);a="Đang cập nhật..."}var f='<li><a title="'+rutgon(s,150)+'..." href="'+posturl+'"><img class="thumb" alt="'+r+'" src="'+o.replace(o.split("/")[7],"s200")+'"></a><a title="'+r+'" href="'+posturl+'">'+rutgon(u,25)+'</a><div class="title-en">'+rutgon(a,25)+'</div><div class="status">'+dm(r)+"</div></li>";document.write(f)}}
-
-function numberOfPosts(json) {document.write('<script style=\"text/javascript\">var totalPosts= '+json.feed.openSearch$totalResults.$t+' ;<\/script>');}
-document.write('<script src=\"/feeds/posts/default'+textlabel+'?alt=json-in-script&callback=numberOfPosts\"><\/script>');
-//]]>

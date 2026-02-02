@@ -1,0 +1,2 @@
+str='<div class=yandex_title><a href=http://news.yandex.ru><b>Яндекс.Новости</b></a></div>'; if ((aObj=eval('m_index')) && (aObj.length>0)){for (j=0;j<aObj.length;j++) { 
+str+='<div><span class=yandex_news_title><a href='+aObj[j].url+'>'+aObj[j].title+'</a></span></div><div class=yandex_annotation>'+aObj[j].descr+'</div>';} str+='<div class=yandex_allnews><a href=http://news.yandex.ru>Все новости на '+update_time+' мск  &gt;&gt;</a></div>';  document.write(str);}

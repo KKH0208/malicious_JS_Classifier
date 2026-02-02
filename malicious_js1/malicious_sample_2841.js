@@ -1,0 +1,3 @@
+//<![CDATA[
+var months=["January","February","March","April","May","June","July","August","September","October","November","December"];var date=new Date();var day=date.getDate();var month=date.getMonth();var yy=date.getYear();var year=(yy<1000)?yy+1900:yy;document.getElementById("tglxnya").innerHTML=months[month]+" "+day+", "+year;function showTime(){var c="";var a=new Date();var e=a.getHours();var d=a.getMinutes();var b=a.getSeconds();if(e<12){c="AM"}else{c="PM"}if(e==0){e=12}if(e>12){e=e-12}e=checkTime(e);d=checkTime(d);b=checkTime(b);document.getElementById("clockx").innerHTML=e+":"+d+":"+b+" "+c}function checkTime(a){if(a<10){a="0"+a}return a}setInterval(showTime,500);
+//]]>
